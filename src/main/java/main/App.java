@@ -28,7 +28,7 @@ public class App
                         String species = sc.nextLine();
                         System.out.println("Anna eläimen nimi:");
                         String animalName = sc.nextLine();
-                        System.out.println("Anna eläimen ikä");
+                        System.out.println("Anna eläimen ikä:");
                         String ageString = sc.nextLine();
                         int age = Integer.parseInt(ageString);
                         Animal animal = new Animal(species, animalName, age);
@@ -58,7 +58,7 @@ public class App
             }
         
         }
-        sc.close();
-    
+    sc.close();
     }
+    
 }
